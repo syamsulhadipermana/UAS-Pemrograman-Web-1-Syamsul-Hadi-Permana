@@ -41,7 +41,23 @@
 <li>Proses komunikasi dilakukan menggunakan Fetch API.</li>
 
 ## ✨ Fitur Aplikasi
-<p>👥 Fitur Pengguna</p>
+Daftar Koleksi Gitar
+Menampilkan berbagai koleksi gitar Gibson SG yang tersedia, lengkap dengan:
+<li>Nama produk</li>
+<li>Gambar gitar</li>
+<li>Harga</li>
+<li>Deskripsi singkat</li>
+<li>Detail Produk Gitar</li>
+
+Pengguna dapat melihat detail setiap gitar, meliputi:
+<li>Nama dan seri gitar</li>
+<li>Deskripsi lengkap produk</li>
+<li>Spesifikasi singkat</li>
+<li>Harga</li>
+<li>Gambar produk</li>
+Fitur ini membantu pengguna memahami karakteristik dan keunikan masing-masing gitar sebelum memilih.
+
+## 👥 Fitur Pengguna
 <li>Landing page informatif</li>
 <li>Menampilkan daftar koleksi gitar</li>
 <li>Melihat detail produk gitar</li>
