@@ -101,18 +101,22 @@ Fitur ini membantu pengguna memahami karakteristik dan keunikan masing-masing gi
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7207a39e-047c-4862-a80b-f114c5d1e571" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e2b3db14-88fa-49dd-a8c9-bba5110984e8" />
 
+
 ## Collections ##
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f87c112-a64e-4d62-94a7-9b60dd50d295" />
+
 
 ## Detail Guitar ##
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d6562a56-b18c-4498-a665-ccb4cb13f5a4" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9ca64c3d-7a84-4524-872d-86fe809d62a6" />
 
+
 ## Wishlist ##
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/751ae82c-06d3-4dec-9fa5-c77f9e3c7b69" />
+
 
 ## About Page ##
 
@@ -120,18 +124,22 @@ Fitur ini membantu pengguna memahami karakteristik dan keunikan masing-masing gi
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2d0a33d8-25c6-4b9f-9768-b8eb9b287491" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/78783a18-cf22-4c50-9ee0-883e402b949c" />
 
+
 ## Login Page ##
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0d53f195-0517-4b46-9d4a-ea22c90a15ee" />
+
 
 ## Register Page ##
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8f5bf332-1d02-43ef-ab2e-6e17a838c6fd" />
 
+
 ## Admin Panel / Dashboard Admin ##
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/755ef0f3-9ae0-4d4f-a8bb-9000d24b5a5f" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/966aab14-88ab-40eb-8f36-1ff47bd11d4d" />
+
 
 ## User Page ##
 
