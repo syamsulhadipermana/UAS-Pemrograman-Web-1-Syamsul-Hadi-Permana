@@ -47,7 +47,8 @@
 <li>Melihat detail produk gitar</li>
 <li>Menambahkan produk ke wishlist</li>
 <li>Navigasi website yang responsif</li>
-<p>🔐 Fitur Admin</p>
+
+## 🔐 Fitur Admin
 <li>Login admin</li>
 <li>Dashboard admin</li>
 <li>Menambahkan data gitar</li>
