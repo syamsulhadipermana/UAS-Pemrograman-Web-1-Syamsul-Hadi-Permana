@@ -66,6 +66,7 @@
 <li>Read: Data gitar ditampilkan di halaman koleksi dengan mengambil data dari API.</li>
 <li>Update: Data gitar dapat diperbarui melalui backend (disiapkan untuk pengembangan lanjutan).</li>
 <li>Delete: Admin dapat menghapus data gitar melalui API menggunakan metode DELETE.</li>
+
 <p>Semua operasi CRUD menggunakan format data JSON.</p>
 
 ## 🧪 Proses Pengembangan Aplikasi
@@ -76,5 +77,6 @@
 <li>Integrasi frontend dengan backend menggunakan Fetch API.</li>
 <li>Pengujian fungsionalitas aplikasi secara lokal.</li>
 <li>Deployment backend ke hosting dan pengujian akses API secara online.</li>
+
 <p>Selama pengembangan, aplikasi diuji secara bertahap untuk memastikan data dapat ditampilkan dan dikelola dengan baik.</p>
 
