@@ -78,3 +78,11 @@
 <li>Deployment backend ke hosting dan pengujian akses API secara online.</li>
 <p>Selama pengembangan, aplikasi diuji secara bertahap untuk memastikan data dapat ditampilkan dan dikelola dengan baik.</p>
 
+# Tampilan Web
+## Halaman Utama ##
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b672cb19-c450-48a6-9439-5a662900040d" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7207a39e-047c-4862-a80b-f114c5d1e571" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e2b3db14-88fa-49dd-a8c9-bba5110984e8" />
+
+
