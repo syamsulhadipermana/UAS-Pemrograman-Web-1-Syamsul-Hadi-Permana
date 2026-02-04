@@ -1,0 +1,417 @@
+/* ========================= */
+/* GLOBAL RESET */
+/* ========================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f8f5f2;
+  color: #1f1f1f;
+  line-height: 1.6;
+  /* ✅ FIX: Jangan padding-top di body, gunakan margin-top untuk conten */
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+.site-header {
+  background: rgba(243, 232, 223, 0.95);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid #e0d5c9;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.site-header .container {
+  padding: 16px 24px;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 18px;
+  color: #5b4636;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #2c1b12;
+  bottom: -4px;
+  left: 0;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a.active {
+  color: #2c1b12;
+  font-weight: 700;
+}
+
+/* ✅ FIX: Add margin-top ke main content untuk tidak tertimpa navbar */
+main {
+  margin-top: 90px;
+}
+
+header + main,
+.site-header + main {
+  margin-top: 90px;
+}
+
+/* ========================= */
+/* CARD (GLOBAL) */
+/* ========================= */
+.card {
+  border-radius: 14px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+.card-img-top {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 14px 14px 0 0;
+  display: block;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  color: #8b5a2b;
+  font-weight: 600;
+}
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+.btn-dark {
+  background: #1f1f1f;
+  border: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.btn-dark:hover {
+  background: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.15);
+}
+
+.btn-outline-dark {
+  border-width: 2px;
+  font-weight: 600;
+}
+
+/* ========================= */
+/* DETAIL PAGE */
+/* ========================= */
+.detail-card {
+  display: flex;
+  gap: 30px;
+}
+
+.detail-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 14px;
+}
+
+/* Detail page from script.js */
+#detail-wrap img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.detail-info {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.detail-info h3 {
+  margin-bottom: 10px;
+}
+
+.detail-info .price {
+  color: #8b5a2b;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ========================= */
+/* FORM */
+/* ========================= */
+.form-card {
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+.site-footer {
+  margin-top: 80px;
+  padding: 24px;
+  background: #efe4d8;
+  border-top: 1px solid #e0d5c9;
+  color: #5b4636;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ========================= */
+/* HERO SECTION (HOME) */
+/* ========================= */
+.hero-section {
+  height: 90vh;
+  background: url("../images/Hero_Tomy.webp") center center / cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.55);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 240px;
+}
+
+.hero-content {
+  color: #fff;
+  max-width: 600px;
+  margin-left: 20px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+/* ========================= */
+/* UI FINISHING – MICRO INTERACTION */
+/* ========================= */
+
+a, button {
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.15);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card img {
+  transition: transform .4s ease;
+}
+
+.text-brown {
+  color: #8b5a2b;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+@media (max-width: 768px) {
+  .detail-card {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    margin: 0 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .nav-links a {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-header .container {
+    padding: 12px 16px;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+}
+
+/* ========================= */
+/* DETAIL PAGE */
+/* ========================= */
+.detail-card {
+  display: flex;
+  gap: 30px;
+}
+
+.detail-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 14px;
+}
+
+.detail-info {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.detail-info h3 {
+  margin-bottom: 10px;
+}
+
+.detail-info .price {
+  color: #8b5a2b;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ========================= */
+/* FORM */
+/* ========================= */
+.form-card {
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+.site-footer {
+  margin-top: 80px;
+  padding: 24px;
+  background: #efe4d8;
+  border-top: 1px solid #e0d5c9;
+  color: #5b4636;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ========================= */
+/* HERO SECTION (HOME) */
+/* ========================= */
+.hero-section {
+  height: 90vh;
+  background: url("../images/Hero_Tomy.webp") center center / cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.55);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 240px;
+}
+
+.hero-content {
+  color: #fff;
+  max-width: 600px;
+  margin-left: 20px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+@media (max-width: 768px) {
+  .detail-card {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    margin: 0 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+}
+
+.text-brown {
+  color: #8b5a2b;
+}
+

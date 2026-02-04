@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard - SS Guitar Collections</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="menu.html" class="brand">SS Guitar Collections</a>
+    <nav class="nav-links">
+      <a href="menu.html" class="active">Dashboard</a>
+      <a href="collections.html">Collections</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container py-5">
+
+  <section class="mb-5">
+    <h2 class="fw-bold" id="welcome-text"></h2>
+    <p class="text-muted">Explore and manage your favorite Gibson SG collections 🎸</p>
+  </section>
+
+  <section class="row g-4 mb-5">
+    <div class="col-md-4">
+      <div class="card text-center p-4 h-100">
+        <h4>🎸 Guitar Collections</h4>
+        <p class="text-muted">Browse all available guitars</p>
+        <a href="collections.html" class="btn btn-dark mt-2">View Collections</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-center p-4 h-100">
+        <h4>❤️ Wishlist</h4>
+        <p class="text-muted">Save your favorite guitars</p>
+        <a href="wishlist.html" class="btn btn-outline-dark mt-2">View Wishlist</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-center p-4 h-100">
+        <h4>👤 Profile</h4>
+        <p class="text-muted">Account & settings</p>
+        <button class="btn btn-outline-dark mt-2" disabled>Coming Soon</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h3 class="fw-bold">Featured Guitars</h3>
+      <a href="collections.html" class="fw-semibold text-decoration-none">View All →</a>
+    </div>
+
+    <div class="row g-4" id="product-grid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  @Copyright by 23552011332_Syamsul Hadi Permana_TIF RP 23 CNS B_UASWEB1
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  requireLogin();
+
+  const name = localStorage.getItem("loggedUserName");
+  document.getElementById("welcome-text").textContent = "Welcome, " + name;
+
+  document.getElementById("logoutBtn").addEventListener("click", () => {
+    localStorage.removeItem("loggedUser");
+    localStorage.removeItem("loggedUserName");
+    localStorage.removeItem("loggedUserRole");
+    window.location.href = "index.html";
+  });
+
+  renderGrid(4);
+});
+</script>
+
+</body>
+</html>

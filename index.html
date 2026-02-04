@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SS Guitar Collections</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- CSS TAMBAHAN KHUSUS ABOUT IMAGE -->
+  <style>
+    .about-img {
+      max-width: 70%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="index.html" class="brand">SS Guitar Collections</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero-section">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h1>Legendary Tone.<br>Timeless Design.</h1>
+      <p>
+        Explore premium Gibson SG collections crafted for musicians,
+        collectors, and tone enthusiasts worldwide.
+      </p>
+      <a href="collections.html" class="btn btn-dark fw-bold">
+        Explore Collections
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2 class="fw-bold mb-3">About SS Guitar Collections</h2>
+      <p>
+        SS Guitar Collections is a specialized guitar store dedicated exclusively to the legendary Gibson SG series. 
+        We offer a curated selection of authentic Gibson SG models, including SG Original, SG Modern, SG Exclusive, and SG Historic, each representing a unique blend of tone, design, and craftsmanship.
+      </p>
+      <p>
+        Renowned for its powerful sound, lightweight body, and iconic double-cutaway design, the Gibson SG has been a favorite choice of world-class guitarists across various music genres such as rock, blues, and metal. 
+        Every instrument featured in our collection reflects Gibson’s commitment to quality, performance, and timeless aesthetics.
+      </p>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="images/Jimmy_Page.jpg" 
+           class="img-fluid rounded-4 shadow about-img">
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="container py-5">
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <div class="card p-4">
+        <h2 class="fw-bold">4+</h2>
+        <p class="mb-0">Premium Collections</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4">
+        <h2 class="fw-bold">60+</h2>
+        <p class="mb-0">Years of Legacy</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4">
+        <h2 class="fw-bold">100%</h2>
+        <p class="mb-0">Legendary Tone</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="container py-5">
+  <h2 class="fw-bold text-center mb-4">Why Choose Gibson SG?</h2>
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <div class="card p-4 h-100">
+        <h4>Premium Materials</h4>
+        <p>Kayu pilihan, hardware berkualitas, dan finishing profesional.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 h-100">
+        <h4>Iconic Sound</h4>
+        <p>Dipercaya gitaris legendaris selama puluhan tahun.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 h-100">
+        <h4>Timeless Design</h4>
+        <p>Desain klasik yang relevan di setiap generasi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="container py-5 text-center">
+  <h2 class="fw-bold">Find Your Dream Guitar</h2>
+  <p class="mt-2">Discover tone, style, and craftsmanship in one place.</p>
+  <a href="collections.html" class="btn btn-dark mt-3 px-4">
+    View Collections
+  </a>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  @Copyright by 23552011332_Syamsul Hadi Permana_TIF RP 23 CNS B_UASWEB1
+</footer>
+
+<!-- ================= NAVBAR AUTO HIDE SCRIPT ================= -->
+<script>
+  let lastScroll = 0;
+  const header = document.querySelector(".site-header");
+
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll <= 0) {
+      header.classList.remove("nav-hide");
+      return;
+    }
+
+    if (currentScroll > lastScroll && !header.classList.contains("nav-hide")) {
+      header.classList.add("nav-hide");
+    } else if (currentScroll < lastScroll && header.classList.contains("nav-hide")) {
+      header.classList.remove("nav-hide");
+    }
+
+    lastScroll = currentScroll;
+  });
+</script>
+
+</body>
+</html>
