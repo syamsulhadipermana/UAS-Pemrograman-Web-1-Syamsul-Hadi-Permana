@@ -10,7 +10,7 @@
   <li>Kelas : TIF RP 23 CNS B</li>
 </ul>
 
-# Project UAS : Website SS Guitar Collections
+# Project UAS : Website SS Guitar Collections 🎸
 ## 📌 Latar Belakang
 <p>Perkembangan teknologi web mendorong kebutuhan akan aplikasi yang mampu menyajikan informasi secara cepat, interaktif, dan terstruktur. Dalam bidang penjualan dan koleksi alat musik, khususnya gitar, dibutuhkan sebuah media digital yang dapat menampilkan katalog produk secara menarik serta mudah diakses oleh pengguna.</p>
 
@@ -41,9 +41,7 @@
 <li>Proses komunikasi dilakukan menggunakan Fetch API.</li>
 
 ## ✨ Fitur Aplikasi
-<p>Terdiri dari:</p>
-
-## 👥 Fitur Pengguna</p> ##
+<p>👥 Fitur Pengguna</p>
 <li>Landing page informatif</li>
 <li>Menampilkan daftar koleksi gitar</li>
 <li>Melihat detail produk gitar</li>
@@ -56,4 +54,17 @@
 <li>Menambahkan data gitar</li>
 <li>Menghapus data gitar</li>
 <li>Melihat data produk dari backend API</li>
+
+## 🗂️ Struktur Project
+<p>Project ini dipisahkan menjadi dua bagian utama:</p>
+<li>Frontend – Berisi tampilan website dan logika client-side</li>
+<li>Backend – Berisi REST API berbasis PHP untuk pengolahan data</li>
+
+##n📦 Implementasi CRUD
+<p>Operasi CRUD (Create, Read, Update, Delete) diterapkan pada data produk gitar, dengan rincian sebagai berikut:</p>
+<li>Create: Admin dapat menambahkan data gitar melalui form dan dikirim ke backend menggunakan metode POST.</li>
+<li>Read: Data gitar ditampilkan di halaman koleksi dengan mengambil data dari API.</li>
+<li>Update: Data gitar dapat diperbarui melalui backend (disiapkan untuk pengembangan lanjutan).</li>
+<li>Delete: Admin dapat menghapus data gitar melalui API menggunakan metode DELETE.</li>
+<p>Semua operasi CRUD menggunakan format data JSON.</p>
 
