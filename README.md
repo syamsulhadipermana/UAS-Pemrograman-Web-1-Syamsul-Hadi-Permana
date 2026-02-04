@@ -1,4 +1,4 @@
-# UTS Pemrograman Web 1
+# UAS Pemrograman Web 1
 <ul>
   <li>Mata Kuliah: Pemrograman Web 1</li>
   <li>Dosen Pengampu: Nova Agustina, S.T., M.Kom.</li>
