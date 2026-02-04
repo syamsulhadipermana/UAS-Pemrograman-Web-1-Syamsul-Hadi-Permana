@@ -20,8 +20,38 @@
 
 ## 🎯 Tujuan Pembuatan Aplikasi
 <p>Tujuan dari pembuatan aplikasi SS Guitar Collections adalah:</p>
-1.Menerapkan konsep pemrograman web menggunakan HTML, CSS, JavaScript, dan PHP.
-2.Mengimplementasikan komunikasi data antara frontend dan backend menggunakan Fetch API dan format JSON.
-3.Mengimplementasikan operasi CRUD (Create, Read, Update, Delete) pada data produk gitar.
-4.Menyediakan antarmuka website yang informatif, responsif, dan mudah digunakan.
+<li>Menerapkan konsep pemrograman web menggunakan HTML, CSS, JavaScript, dan PHP.</li>
+<li>Mengimplementasikan komunikasi data antara frontend dan backend menggunakan Fetch API dan format JSON.</li>
+<li>Mengimplementasikan operasi CRUD (Create, Read, Update, Delete) pada data produk gitar.</li>
+<li>Menyediakan antarmuka website yang informatif, responsif, dan mudah digunakan.</li>
+
+## 🛠️ Teknologi yang Digunakan
+<li>HTML5 – Struktur halaman web</li>
+<li>CSS3 – Styling dan layout</li>
+<li>JavaScript (Vanilla JS) – Interaksi dan Fetch API</li>
+<li>PHP Native – Backend REST API</li>
+<li>MySQL – Database</li>
+<li>Bootstrap 5 – Framework UI</li>
+
+## ⚙️ Arsitektur Aplikasi
+<p>Aplikasi ini menggunakan arsitektur Frontend + Backend API, di mana:</p>
+<li>Frontend bertugas menampilkan antarmuka pengguna dan mengonsumsi data dari API.</li>
+<li>Backend bertugas mengelola database dan menyediakan layanan API berbasis PHP.</li>
+<li>Data dipertukarkan dalam format JSON menggunakan metode HTTP (GET, POST, DELETE).</li>
+<li>Proses komunikasi dilakukan menggunakan Fetch API.</li>
+
+## ✨ Fitur Aplikasi
+<p>👥 Fitur Pengguna</p>
+<li>Landing page informatif</li>
+<li>Menampilkan daftar koleksi gitar</li>
+<li>Melihat detail produk gitar</li>
+<li>Menambahkan produk ke wishlist</li>
+<li>Navigasi website yang responsif</li>
+
+<p>🔐 Fitur Admin</p>
+<li>Login admin</li>
+<li>Dashboard admin</li>
+<li>Menambahkan data gitar</li>
+<li>Menghapus data gitar</li>
+<li>Melihat data produk dari backend API</li>
 
