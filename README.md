@@ -60,11 +60,21 @@
 <li>Frontend – Berisi tampilan website dan logika client-side</li>
 <li>Backend – Berisi REST API berbasis PHP untuk pengolahan data</li>
 
-##n📦 Implementasi CRUD
+## 📦 Implementasi CRUD
 <p>Operasi CRUD (Create, Read, Update, Delete) diterapkan pada data produk gitar, dengan rincian sebagai berikut:</p>
 <li>Create: Admin dapat menambahkan data gitar melalui form dan dikirim ke backend menggunakan metode POST.</li>
 <li>Read: Data gitar ditampilkan di halaman koleksi dengan mengambil data dari API.</li>
 <li>Update: Data gitar dapat diperbarui melalui backend (disiapkan untuk pengembangan lanjutan).</li>
 <li>Delete: Admin dapat menghapus data gitar melalui API menggunakan metode DELETE.</li>
 <p>Semua operasi CRUD menggunakan format data JSON.</p>
+
+## 🧪 Proses Pengembangan Aplikasi
+<p>Pengembangan aplikasi dilakukan melalui beberapa tahapan:</p>
+<li>Perancangan struktur halaman dan tampilan website.</li>
+<li>Pembuatan backend API menggunakan PHP dan MySQL.</li>
+<li>Implementasi CRUD pada data produk gitar.</li>
+<li>Integrasi frontend dengan backend menggunakan Fetch API.</li>
+<li>Pengujian fungsionalitas aplikasi secara lokal.</li>
+<li>Deployment backend ke hosting dan pengujian akses API secara online.</li>
+<p>Selama pengembangan, aplikasi diuji secara bertahap untuk memastikan data dapat ditampilkan dan dikelola dengan baik.</p>
 
