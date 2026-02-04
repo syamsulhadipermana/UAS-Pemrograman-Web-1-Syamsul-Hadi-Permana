@@ -41,7 +41,9 @@
 <li>Proses komunikasi dilakukan menggunakan Fetch API.</li>
 
 ## ✨ Fitur Aplikasi
-<p>👥 Fitur Pengguna</p>
+<p>Terdiri dari:</p>
+
+## 👥 Fitur Pengguna</p> ##
 <li>Landing page informatif</li>
 <li>Menampilkan daftar koleksi gitar</li>
 <li>Melihat detail produk gitar</li>
